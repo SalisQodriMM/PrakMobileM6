@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     } catch (e) {
       // ignore: avoid_print
-      print(e);
+      print('Error: $e');
     }
   }
 
