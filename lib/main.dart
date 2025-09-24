@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Demo GridView.builder',
+      title: 'Praktikum 6',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
         useMaterial3: true,
@@ -128,7 +128,7 @@ Container _listItem(String url, String judul, String genre, String rilis) {
                     children: [
                       Text(genre, style: const TextStyle(color: Colors.grey)),
                       const SizedBox(height: 2),
-                      Text(genre, style: const TextStyle(color: Colors.grey)),
+                      Text(rilis, style: const TextStyle(color: Colors.grey)),
                     ],
                   ),
                   _tombolBaca(),
